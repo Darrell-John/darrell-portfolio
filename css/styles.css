@@ -1,7 +1,4 @@
-/* ==========================================================
-   Darrell John portfolio. Plain CSS, no framework.
-   Visual design follows the original dark "bento" portfolio.
-   ========================================================== */
+
 
 :root {
   --bg: #000319;
@@ -178,7 +175,7 @@ button { font: inherit; color: inherit; cursor: pointer; background: none; borde
 }
 @media (min-width: 768px) { .hero-title { font-size: 3rem; } }
 @media (min-width: 1024px) { .hero-title { font-size: 3.75rem; } }
-.gen-word { display: inline-block; opacity: 0; filter: blur(8px); transform: translateY(0.4em); animation: gen 0.8s ease forwards; animation-delay: calc(0.4s + var(--i) * 0.18s); }
+.gen-word { display: inline-block; margin-right: 0.28em; opacity: 0; filter: blur(8px); transform: translateY(0.4em); animation: gen 0.8s ease forwards; animation-delay: calc(0.4s + var(--i) * 0.18s); }
 @keyframes gen { to { opacity: 1; filter: blur(0); transform: none; } }
 .gen-word.is-accent { color: var(--purple); }
 
